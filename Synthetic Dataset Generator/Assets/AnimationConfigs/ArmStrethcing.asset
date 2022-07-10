@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c69656f5dd14516a3a18e42b3b43a4e, type: 3}
+  m_Name: ArmStrethcing
+  m_EditorClassIdentifier: 
+  animationClip: {fileID: -203655887218126122, guid: 5deb6ce4e734461438b2ab20e9ac7bf3, type: 3}
+  m_Timestamps:
+  - startOffsetPercent: 0
+    poseLabel: raising_right_arm
+  - startOffsetPercent: 0.16
+    poseLabel: stretching_right_arm
+  - startOffsetPercent: 0.28
+    poseLabel: lowering_arms
+  - startOffsetPercent: 0.34
+    poseLabel: raising_left_arm
+  - startOffsetPercent: 0.44
+    poseLabel: stretching_left_arm
+  - startOffsetPercent: 0.6
+    poseLabel: lowering_arms
+  - startOffsetPercent: 0.75
+    poseLabel: shoulder_raising

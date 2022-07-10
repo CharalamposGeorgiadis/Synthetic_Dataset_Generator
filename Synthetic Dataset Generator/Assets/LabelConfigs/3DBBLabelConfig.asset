@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f09f279848e42cea259348b13bce4c5, type: 3}
+  m_Name: 3DBBLabelConfig
+  m_EditorClassIdentifier: 
+  m_LabelEntries:
+  - label: person
+    id: 1
+  - label: chair
+    id: 2
+  - label: lamp
+    id: 3
+  - label: potted plant
+    id: 4
+  - label: window
+    id: 5
+  - label: monitor
+    id: 6
+  - label: picture
+    id: 7
+  - label: couch
+    id: 8
+  - label: printer
+    id: 9
+  - label: poster
+    id: 10
+  - label: tv
+    id: 11
+  - label: cabinet
+    id: 12
+  - label: speaker
+    id: 13
+  - label: mouse
+    id: 14
+  - label: keyboard
+    id: 15
+  - label: table
+    id: 16
+  - label: end_table
+    id: 17
+  - label: desk
+    id: 18
+  - label: door
+    id: 19
+  - label: floor
+    id: 20
+  - label: pen
+    id: 21
+  - label: cup
+    id: 22
+  - label: notepad
+    id: 23
+  - label: painting
+    id: 24
+  - label: ceiling
+    id: 25
+  - label: dresser
+    id: 26
+  - label: mirror
+    id: 27
+  - label: wardrobe
+    id: 28
+  - label: bed
+    id: 29
+  - label: laptop
+    id: 30
+  - label: remote
+    id: 31
+  - label: video_player
+    id: 32
+  - label: bookcase
+    id: 33
+  - label: rug
+    id: 34
+  - label: wine_bottle
+    id: 35
+  - label: shelf
+    id: 36
+  - label: media_table
+    id: 37
+  - label: glass
+    id: 38
+  - label: bench
+    id: 39
+  - label: hanger
+    id: 40
+  - label: wall
+    id: 41
+  - label: window_frame
+    id: 42
+  - label: phone
+    id: 43
+  - label: sink
+    id: 44
+  - label: fridge
+    id: 45
+  - label: oven
+    id: 46
+  - label: oven_hood
+    id: 47
+  - label: basket
+    id: 48
+  - label: bathtub
+    id: 49
+  - label: toilet
+    id: 50
+  - label: toilet_paper_holder
+    id: 51
+  - label: towel_rack
+    id: 52
+  - label: head
+    id: 53
+  autoAssignIds: 1
+  startingLabelId: 1
