@@ -1,7 +1,7 @@
 # Synthetic_Dataset_Generator
 The aim of this Unity project is to generate synthetic datasets for training and evaluating, mainly but not limited to, Active Perception/Vision methods. It utilises a modified version 0.9.0-preview.1 of the [Unity Perception Package](https://github.com/Unity-Technologies/com.unity.perception) along with some additional scripts and Randomizers that were developed for the purpose of this work.
 
-This project was used in my diploma thesis (and is set up in such a way) for generating a synthetic dataset for every valid combination of 8 environments, 33 humans, 4 light conditions, 7 camera distances (1m - 4m away from the human) and 36 camera angles (0° - 360° with 10° increments, rotating around the human). A combination is rendered invalid if camera GameObject is colliding with another object. The project also supports the addition of animations to the humans with two Randomizers that control the changing of the animations and the proper playing of each one. 
+This project was used in my diploma thesis (and is set up in such a way) for generating a synthetic dataset for every valid combination of 8 environments, 33 humans, 4 lighting conditions, 7 camera distances (1m - 4m away from the human) and 36 camera angles (0° - 360° with 10° increments, rotating around the human). A combination is rendered invalid if camera GameObject is colliding with another object. The project also supports the addition of animations to the humans with two Randomizers that control the changing of the animations and the proper playing of each one. 
 
 The main dataset generation algorithm can be described by a sequence of nested for-loops:
 
@@ -27,7 +27,7 @@ For each valid capture, the project generates an RGB image and its semantic segm
 
 ## Generated Folders
 The Unity project generates 3 folder:
-- Datset Data: Contains the JSON files that are generated during the Simulation.
+- Dataset Data: Contains the JSON files that are generated during the Simulation.
 - RGBImages: Contains the RGB images.
 - SemanticSegmentationImages: Contains the semantic segmentation images.
 
