@@ -72,6 +72,17 @@ The Unity project that was developed for my diploma thesis included 8 environmen
 
 Four additional humans (one male adult, one male baby, one female adult, one female baby) were designed using [MakeHuman](http://www.makehumancommunity.org). Since, I created these models, they are included in this repository in the *Assets/MyModels* folder.
 
+# Face Image Dataset
+A second dataset was generated containing only the face images for each human. This was achieved by adding a transparent cube on each human's head and labeling it as "head". Then, the 2D Bounding Box coordinates of each head were extracted and used to crop the original images in order to retain only the faces. However, since the labeled head GameObject overlaps with the "person" label which cover the whole human model, if both *Labeling* components are active the 2D Bounding Box Labeler would sometimes capture false coordinates for a person's head. For that reason, the transparent head cubes are by default disabled when opening this project. As a result, if one wants to create a face image dataset using this project they should:
+- Disable the *Labeling* component of each human.
+- Disable the Keypoint Labeler, since without any labeled humans the Labeler will not capture any data.
+
+The face images were used to train and evaluate an [existing enbedding-based active face recogniser](https://ieeexplore.ieee.org/document/9287085) which demonstrated how the extensive pan and distance range that the dataset provides can yield impressive results when training an Active Perception model using this dataset.
+
+## Face Image Examples
+![Faces](https://user-images.githubusercontent.com/72664246/178233325-417f6717-db24-403b-a8b6-c494c8c5eb03.png)
+
+
 # Important Notes
 - When opening the project, if the default scene is empty, go to the *Scenes* folder and double-click on *MyScene.unity* in order to load the project's scene.
 - If an environment is added to the project, it should be added as a child GameObject to the *Environments* parent GameObject.
