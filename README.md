@@ -82,6 +82,12 @@ The face images were used to train and evaluate an [existing enbedding-based act
 ## Face Image Examples
 ![Faces](https://user-images.githubusercontent.com/72664246/178233325-417f6717-db24-403b-a8b6-c494c8c5eb03.png)
 
+# Additional Scripts
+Two additional Python scrips were created in order to get the face images and to store them in an organised manner:
+- face_cropper: Parses the *captures_xyz.json* files located in the **Dataset Data** folder and stores the 2D Bounding Box coordinates and dimensions of the head GameObject of each image. Based on those values, the original images are cropped in order to retain only the heads.
+- generate_dataset_folders: Creates 33 folders named *Person_x*, one for each individual human. For each person multiple subfolders named *y_z* are created, one for each combination of environment and lighting condition where:
+  - **y** denotes the id of the environment.
+  - **z** denotes the id of the lighting condition. 
 
 # Important Notes
 - When opening the project, if the default scene is empty, go to the *Scenes* folder and double-click on *MyScene.unity* in order to load the project's scene.
