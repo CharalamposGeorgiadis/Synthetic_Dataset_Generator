@@ -76,4 +76,4 @@ Four additional humans (one male adult, one male baby, one female adult, one fem
 - When opening the project, if the default scene is empty, go to the *Scenes* folder and double-click on *MyScene.unity* in order to load the project's scene.
 - If an environment is added to the project, it should be added as a child GameObject to the *Environments* parent GameObject.
 - If a human is added to the project, it should be added as a child GameObject to the *Humans* parent GameObject.
-- If a new *AnimationControler* is created, it should be added in the 
+- If a new *AnimationControler* is created, it should be added in the *Assets/Resources/MyAnimatorControllers* folder.
