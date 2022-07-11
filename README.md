@@ -76,6 +76,7 @@ Four additional humans (one male adult, one male baby, one female adult, one fem
 A second dataset was generated containing only the face images for each human. This was achieved by adding a transparent cube on each human's head and labeling it as "head". Then, the 2D Bounding Box coordinates of each head were extracted and used to crop the original images in order to retain only the faces. However, since the labeled head GameObject overlaps with the "person" label which cover the whole human model, if both *Labeling* components are active the 2D Bounding Box Labeler would sometimes capture false coordinates for a person's head. For that reason, the transparent head cubes are by default disabled when opening this project. As a result, if one wants to create a face image dataset using this project they should:
 - Disable the *Labeling* component of each human.
 - Disable the Keypoint Labeler, since without any labeled humans the Labeler will not capture any data.
+- Enable the **Head** GameObject which is a child GameObject of the head skeleton parent GameObject of each human.
 
 The face images were used to train and evaluate an [existing enbedding-based active face recogniser](https://ieeexplore.ieee.org/document/9287085) which demonstrated how the extensive pan and distance range that the dataset provides can yield impressive results when training an Active Perception model using this dataset.
 
