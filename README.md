@@ -54,6 +54,20 @@ The Unity project that was developed for my diploma thesis included 8 environmen
 - [Carla Rigged 001 3D](https://www.turbosquid.com/3d-models/photorealistic-human-rig-3d-1422548)
 - [Eric Rigged 001 3D](https://www.turbosquid.com/3d-models/photorealistic-human-rig-3d-1422553)
 
+### Animation Controllers
+The animation controllers located in the *Assets/Resources* folder were created for the following animations from [Mixamo](https://www.mixamo.com/#/):
+- Arm Stretching (used for frames 0-250)
+- Crawling
+- Dying (used as a falling animation from frames 35-90)
+- Having Seizure (used for frames 10-150)
+- Push Ups (used for frames 0-45)
+- Shoulder Rubbing (used for frames 0-140)
+- Sit Ups (used for frames 0-65)
+- Yelling (used for frames 10-200)
+
+One additional [Coughing](https://assetstore.unity.com/packages/3d/animations/idle-mocap-28345) animation (used for frames 165-339) was downloaded from the [Asset Store](https://assetstore.unity.com/?gclid=Cj0KCQjw5ZSWBhCVARIsALERCvw1Bhpyz7oRJ-wyDHO-6OJuqiU-nU1S0uTIDNy_6Mbz9tNTsrmLGsIaAuUrEALw_wcB&gclsrc=aw.ds).
+
+
 Four additional humans (one male adult, one male baby, one female adult, one female baby) were designed using [MakeHuman](http://www.makehumancommunity.org). Since, I created these models, they are included in this repository in the *Assets/MyModels* folder.
 
 # Face Image Dataset
