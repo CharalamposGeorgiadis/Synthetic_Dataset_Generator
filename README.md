@@ -54,6 +54,8 @@ The Unity project that was developed for my diploma thesis included 8 environmen
 - [Carla Rigged 001 3D](https://www.turbosquid.com/3d-models/photorealistic-human-rig-3d-1422548)
 - [Eric Rigged 001 3D](https://www.turbosquid.com/3d-models/photorealistic-human-rig-3d-1422553)
 
+Four additional humans (one male adult, one male baby, one female adult, one female baby) were designed using [MakeHuman](http://www.makehumancommunity.org). Since, I created these models, they are included in this repository in the *Assets/MyModels* folder.
+
 ### Animation Controllers
 The animation controllers located in the *Assets/Resources* folder were created for the following animations from [Mixamo](https://www.mixamo.com/#/):
 - Arm Stretching (used for frames 0-250)
@@ -66,9 +68,6 @@ The animation controllers located in the *Assets/Resources* folder were created 
 - Yelling (used for frames 10-200)
 
 One additional [Coughing](https://assetstore.unity.com/packages/3d/animations/idle-mocap-28345) animation (used for frames 165-339) was downloaded from the [Asset Store](https://assetstore.unity.com/?gclid=Cj0KCQjw5ZSWBhCVARIsALERCvw1Bhpyz7oRJ-wyDHO-6OJuqiU-nU1S0uTIDNy_6Mbz9tNTsrmLGsIaAuUrEALw_wcB&gclsrc=aw.ds).
-
-
-Four additional humans (one male adult, one male baby, one female adult, one female baby) were designed using [MakeHuman](http://www.makehumancommunity.org). Since, I created these models, they are included in this repository in the *Assets/MyModels* folder.
 
 # Face Image Dataset
 A second dataset was generated containing only the face images for each human. This was achieved by adding a transparent cube on each human's head and labeling it as "head". Then, the 2D Bounding Box coordinates of each head were extracted and used to crop the original images in order to retain only the faces. However, since the labeled head GameObject overlaps with the "person" label which cover the whole human model, if both *Labeling* components are active the 2D Bounding Box Labeler would sometimes capture false coordinates for a person's head. For that reason, the transparent head cubes are by default disabled when opening this project. As a result, if one wants to create a face image dataset using this project they should:
