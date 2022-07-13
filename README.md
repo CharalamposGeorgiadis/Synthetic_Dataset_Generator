@@ -49,26 +49,10 @@ If animations are enabled, each image is named: *e_h_l_a_f_d_r.jpg*, where
 If animations are enabled, each image is named: *e_h_l_d_r.jpg*.
 
 ## Used Assets
-The Unity project that was developed for my diploma thesis included 8 environments created from free assets downloaded from the [Unity Asset Store](https://assetstore.unity.com/?gclid=Cj0KCQjw5ZSWBhCVARIsALERCvw1Bhpyz7oRJ-wyDHO-6OJuqiU-nU1S0uTIDNy_6Mbz9tNTsrmLGsIaAuUrEALw_wcB&gclsrc=aw.ds). 29 out of the 33 human models were downloaded from the [Asset Store](https://assetstore.unity.com/?gclid=Cj0KCQjw5ZSWBhCVARIsALERCvw1Bhpyz7oRJ-wyDHO-6OJuqiU-nU1S0uTIDNy_6Mbz9tNTsrmLGsIaAuUrEALw_wcB&gclsrc=aw.ds), [Mixamo](https://www.mixamo.com/#/) and [Turbosquid](https://www.turbosquid.com/?&utm_source=google&utm_medium=cpc&utm_campaign=RoEUAF-en-TS-Brand&utm_content=ts%20brand&utm_term=turbosquid&mt=e&dev=c&itemid=&targid=kwd-297496938642&loc=9061579&ntwk=g&dmod=&adp=&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvx-98mKydP7qVEzkzbkv1eKZioniGXh6Mx24qUdCa4lmnYCegmD8H0aAlvpEALw_wcB&gclsrc=aw.ds). Due to obvious legal reasons, these assets are not included in this repository, however the [Asset Store](https://assetstore.unity.com/?gclid=Cj0KCQjw5ZSWBhCVARIsALERCvw1Bhpyz7oRJ-wyDHO-6OJuqiU-nU1S0uTIDNy_6Mbz9tNTsrmLGsIaAuUrEALw_wcB&gclsrc=aw.ds) and [Turbosquid](https://www.turbosquid.com/?&utm_source=google&utm_medium=cpc&utm_campaign=RoEUAF-en-TS-Brand&utm_content=ts%20brand&utm_term=turbosquid&mt=e&dev=c&itemid=&targid=kwd-297496938642&loc=9061579&ntwk=g&dmod=&adp=&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvx-98mKydP7qVEzkzbkv1eKZioniGXh6Mx24qUdCa4lmnYCegmD8H0aAlvpEALw_wcB&gclsrc=aw.ds) assets and models that were used are linked below:
-
-### Environments
-- [Apartment Kit](https://assetstore.unity.com/packages/3d/props/apartment-kit-124055)
-- [Classic Picture Frame](https://assetstore.unity.com/packages/3d/props/furniture/classic-picture-frame-59038)
-- [Dining Set](https://assetstore.unity.com/packages/3d/props/interior/dining-set-37029)
-- [HQ Laptop Computer](https://assetstore.unity.com/packages/3d/props/electronics/hq-laptop-computer-42030)
-- [Lamp Model](https://assetstore.unity.com/packages/3d/props/interior/lamp-model-110960)
-- [Office Room Furniture](https://assetstore.unity.com/packages/3d/props/furniture/office-room-furniture-70884)
-- [Old "USSR" Lamp](https://assetstore.unity.com/packages/3d/props/electronics/old-ussr-lamp-110400)
-- [Pack Gesta Furniture \#1](https://assetstore.unity.com/packages/3d/props/furniture/pack-gesta-furniture-1-28237)
-- [PBR Electronics Pack](https://assetstore.unity.com/packages/3d/props/electronics/pbr-electronics-pack-38741)
-- [Toon Furniture](https://assetstore.unity.com/packages/3d/props/furniture/toon-furniture-88740)
-- [TV Furniture](https://assetstore.unity.com/packages/3d/props/electronics/tv-furniture-60122)
-
-### Humans
+The Unity project that was developed for my diploma thesis included 8 environments created from free assets downloaded from the [Unity Asset Store](https://assetstore.unity.com/?gclid=Cj0KCQjw5ZSWBhCVARIsALERCvw1Bhpyz7oRJ-wyDHO-6OJuqiU-nU1S0uTIDNy_6Mbz9tNTsrmLGsIaAuUrEALw_wcB&gclsrc=aw.ds). 29 out of the 33 human models were downloaded from the [Asset Store](https://assetstore.unity.com/?gclid=Cj0KCQjw5ZSWBhCVARIsALERCvw1Bhpyz7oRJ-wyDHO-6OJuqiU-nU1S0uTIDNy_6Mbz9tNTsrmLGsIaAuUrEALw_wcB&gclsrc=aw.ds), [Mixamo](https://www.mixamo.com/#/) and [Turbosquid](https://www.turbosquid.com/?&utm_source=google&utm_medium=cpc&utm_campaign=RoEUAF-en-TS-Brand&utm_content=ts%20brand&utm_term=turbosquid&mt=e&dev=c&itemid=&targid=kwd-297496938642&loc=9061579&ntwk=g&dmod=&adp=&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvx-98mKydP7qVEzkzbkv1eKZioniGXh6Mx24qUdCa4lmnYCegmD8H0aAlvpEALw_wcB&gclsrc=aw.ds). Due to [Mixamo](https://www.mixamo.com/#/) and [Turbosquid's](https://www.turbosquid.com/?&utm_source=google&utm_medium=cpc&utm_campaign=RoEUAF-en-TS-Brand&utm_content=ts%20brand&utm_term=turbosquid&mt=e&dev=c&itemid=&targid=kwd-297496938642&loc=9061579&ntwk=g&dmod=&adp=&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvx-98mKydP7qVEzkzbkv1eKZioniGXh6Mx24qUdCa4lmnYCegmD8H0aAlvpEALw_wcB&gclsrc=aw.ds) Terms of Service, the human models and animations from these sources are not included in this repository, however the ones downloaded from [Turbosquid](https://www.turbosquid.com/?&utm_source=google&utm_medium=cpc&utm_campaign=RoEUAF-en-TS-Brand&utm_content=ts%20brand&utm_term=turbosquid&mt=e&dev=c&itemid=&targid=kwd-297496938642&loc=9061579&ntwk=g&dmod=&adp=&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvx-98mKydP7qVEzkzbkv1eKZioniGXh6Mx24qUdCa4lmnYCegmD8H0aAlvpEALw_wcB&gclsrc=aw.ds) are linked below:
 - [3D Claudia Rigged 002](https://www.turbosquid.com/3d-models/3d-photorealistic-human-rig-1422551)
 - [Carla Rigged 001 3D](https://www.turbosquid.com/3d-models/photorealistic-human-rig-3d-1422548)
 - [Eric Rigged 001 3D](https://www.turbosquid.com/3d-models/photorealistic-human-rig-3d-1422553)
-- [Man in a Suit](https://assetstore.unity.com/packages/3d/characters/humanoids/humans/man-in-a-suit-51662)
 
 Four additional humans (one male adult, one male baby, one female adult, one female baby) were designed using [MakeHuman](http://www.makehumancommunity.org). Since, I created these models, they are included in this repository in the *Assets/MyModels* folder.
 
