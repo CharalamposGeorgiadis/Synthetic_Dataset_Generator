@@ -3,6 +3,7 @@ message: "If you use this software, please cite it as below."
 author: 
   - family-names: Georgiadis
     given-names: Charalampos
+    orcid: https://orcid.org/0000-0000-0000-0000
 title: "Synthetic Dataset Generator"
 version: 1.0
 doi: 10.5281/zenodo.7352336
