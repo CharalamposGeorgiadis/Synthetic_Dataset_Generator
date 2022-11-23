@@ -3,7 +3,6 @@ message: "If you use this software, please cite it as below."
 author: 
   - family-names: Georgiadis
     given-names: Charalampos
-    email: georgfx@gmail.com
 title: "Synthetic Dataset Generator"
 version: 1.0
 doi: 10.5281/zenodo.7352336
