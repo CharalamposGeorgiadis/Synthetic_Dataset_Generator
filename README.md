@@ -101,7 +101,7 @@ Two additional Python scrips were created in order to get the face images and to
  @inproceedings{ActiveFace,
   title={ActiveFace: A Synthetic Active Perception Dataset for Face Recognition},
   author={Georgiadis, Charalampos and Passalis, Nikolaos and Nikolaidis, Nikos},
-  booktitle={Proceedings of the IEEE 22nd International Workshop on Multimedia Signal Processing},
+  booktitle={Proceedings of the IEEE 25th International Workshop on Multimedia Signal Processing},
   year={2023},
 }
 ```
