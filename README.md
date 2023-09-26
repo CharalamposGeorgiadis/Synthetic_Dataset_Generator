@@ -1,7 +1,9 @@
 # Synthetic_Dataset_Generator
 The aim of this Unity project is to generate synthetic datasets for training and evaluating, mainly but not limited to, Active Perception/Vision methods. It utilises a modified version 0.9.0-preview.1 of the [Unity Perception Package](https://github.com/Unity-Technologies/com.unity.perception) along with some additional scripts and Randomizers that were developed for the purpose of this work.
 
-This project was used in my [diploma thesis](https://www.researchgate.net/publication/362093799_Generation_of_a_Synthetic_Annotated_Dataset_for_Training_and_Evaluating_Active_Perception_Methods) for generating a synthetic dataset for every valid combination of 8 environments, 33 humans, 4 lighting conditions, 7 camera distances (1m - 4m away from the human) and 36 camera angles (0° - 360° with 10° increments, rotating around the human). A combination is rendered invalid if camera GameObject is colliding with another object. The project also supports the addition of animations to the humans with two Randomizers that control the changing of the animations and the proper playing of each one. 
+This project was used in my [diploma thesis](https://www.researchgate.net/publication/362093799_Generation_of_a_Synthetic_Annotated_Dataset_for_Training_and_Evaluating_Active_Perception_Methods) for generating [ActiveHumans](https://zenodo.org/record/8359766), a synthetic dataset that contains RGB images, semantic segmentation images and JSON annotations for every valid combination of 8 environments, 33 humans, 4 lighting conditions, 7 camera distances (1m - 4m away from the human) and 36 camera angles (0° - 360° with 10° increments, rotating around the human). A combination is rendered invalid if camera GameObject is colliding with another object. The project also supports the addition of animations to the humans with two Randomizers that control the changing of the animations and the proper playing of each one. 
+
+Using the additional scripts, a second dataset, [ActiveFace](https://github.com/opendr-eu/datasets/tree/main/active_face), that contains only facial RGB images, was generated.
 
 The main dataset generation algorithm can be described by a sequence of nested for-loops:
 
@@ -92,3 +94,12 @@ Two additional Python scrips were created in order to get the face images and to
 - If an environment is added to the project, it should be added as a child GameObject to the *Environments* parent GameObject.
 - If a human is added to the project, it should be added as a child GameObject to the *Humans* parent GameObject.
 - If a new *AnimationControler* is created, it should be added in the *Assets/Resources/MyAnimatorControllers* folder.
+
+# Citation
+ If you find this project useful, consider citing it using:
+ @inproceedings{ActiveFace,
+  title={ActiveFace: A Synthetic Active Perception Dataset for Face Recognition},
+  author={Georgiadis, Charalampos and Passalis, Nikolaos and Nikolaidis, Nikos},
+  booktitle={Proceedings of the IEEE 22nd International Workshop on Multimedia Signal Processing},
+  year={2023},
+}
